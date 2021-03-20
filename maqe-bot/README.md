@@ -5,6 +5,11 @@
 go build && ./maqe-bot [COMMAND]
 ```
 
+### Test coverage
+```
+coverage: 82.3% of statements
+```
+
 ## Benchmark
 - Benchmarking with
   - Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz Ram 16GB
