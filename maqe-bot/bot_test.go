@@ -64,6 +64,6 @@ func BenchmarkBotExecuteCommandWithMaqeBot(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		bot := NewBot(NewMaqeBot(&Position{0, 0}, North))
 
-		bot.ExecuteCommand("RW15RW1")
+		bot.ExecuteCommand("RW15RW1LLLLLW99RRRRRW88LLLRLW55555W555555W444444W1RRW11RLLW19RRW12LW1W55555RW555555W444444W1RLW23LRR")
 	}
 }
